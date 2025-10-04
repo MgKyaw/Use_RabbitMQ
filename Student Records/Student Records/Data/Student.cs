@@ -1,4 +1,6 @@
-﻿namespace Student_Records.Data
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Student_Records.Data
 {
     public class Student
     {
