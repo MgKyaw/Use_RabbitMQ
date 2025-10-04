@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Student_Records.Services;
 
-public class RabbitMQProducer
+public class RabbitMQProducer : IMessageProducer
 {
     public void SendMessage<T>(T message)
     {
